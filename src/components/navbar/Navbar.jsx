@@ -9,7 +9,7 @@ export default function Navbar(){
         <div className="navContainer">
             <div className="navItemsWrapper">
                 <ul className="navItems">
-                    <li id="navItem"> <Link>Link 1</Link></li> 
+                    <li id="navItem"> <Link to="/">Search</Link></li> 
                     <li id="navItem"> <Link>Link 2</Link></li> 
                     <li id="navItem"> <Link>Link 3</Link></li> 
                     <li id="loginItem"> <Link>Login</Link></li> 

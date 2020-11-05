@@ -12,7 +12,7 @@ console.log(userInput);
         <div>
             <form action="" className="formWrapper">
                 <input type="text" placeholder="Search your Amazon Product" onChange={e => {setUserInput(e.target.value)}}/>
-                <button><Link to={`/product/${userInput}`}>Search</Link></button>
+                <Link to={`/product/${userInput}`}><button>Search</button></Link>
 
             </form>
         </div>
