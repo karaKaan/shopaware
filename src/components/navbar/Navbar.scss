@@ -1,9 +1,13 @@
+@import '../base/color';
+
 .navItems>#navItem{
     display: inline-block;
     float: none;
     left: 50%;
     font-size: 20px;
-    padding: 1rem 4rem 4rem 15rem;
+    margin: 1rem 4rem 4rem 15rem;
+    color: $txtColor;
+    font-weight: 600;
 }
 
 #loginItem{
@@ -11,6 +15,8 @@
     float: right;
     font-size: 20px;
     padding: 1rem 4rem 4rem 15rem;
+    color: $txtColor;
+    font-weight: 600;
 }
 
 .navItemWrapper{

@@ -2,8 +2,14 @@
 // $bgColor: #ADD7F6;
 body {
   background-color: $bgColor;
+  font-family: 'Roboto', sans-serif;
 }
 
 li{
   list-style-type: none;
+}
+
+a, a:visited, a:hover, a:active{
+  text-decoration: none;
+  color: inherit;
 }
