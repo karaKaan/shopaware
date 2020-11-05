@@ -1,7 +1,9 @@
 @import '../base/color';
 // $bgColor: #ADD7F6;
 body {
-  
   background-color: $bgColor;
+}
 
+li{
+  list-style-type: none;
 }

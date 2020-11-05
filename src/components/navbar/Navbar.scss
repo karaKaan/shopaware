@@ -1,0 +1,21 @@
+.navItems>#navItem{
+    display: inline-block;
+    float: none;
+    left: 50%;
+    font-size: 20px;
+    padding: 1rem 4rem 4rem 15rem;
+}
+
+#loginItem{
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    padding: 1rem 4rem 4rem 15rem;
+}
+
+.navItemWrapper{
+}
+.navContainer{
+    text-align: center;
+
+}
