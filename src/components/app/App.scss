@@ -1,6 +1,7 @@
-
-
+@import '../base/color';
+// $bgColor: #ADD7F6;
 body {
-  background-color: red;
+  
+  background-color: $bgColor;
 
 }
