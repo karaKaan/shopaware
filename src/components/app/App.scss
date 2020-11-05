@@ -13,3 +13,14 @@ a, a:visited, a:hover, a:active{
   text-decoration: none;
   color: inherit;
 }
+
+button, button:focus{
+  border: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+input, input:focus, input:hover{
+  outline: 0;
+  border: none;
+}

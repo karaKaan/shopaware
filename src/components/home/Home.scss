@@ -1,0 +1,24 @@
+@import '../base/color';
+.formWrapper{
+    text-align: center;
+    margin-top: 17rem;
+
+}
+
+.formWrapper>input{
+    padding: 0.5em;
+    width: 30%;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: $txtColor;
+}
+.formWrapper>button{
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: $success;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+
+}
